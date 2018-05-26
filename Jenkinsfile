@@ -12,7 +12,7 @@ pipeline{
 	{
 		echo 'THis is my build stage'
           	sh 'ant -f build.xml -v'
-                echo "build completed
+                echo "build completed"
 	}
     
 }
